@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager Web</title>
+    <link rel="stylesheet" href="Styles/main.css">
+    <link rel="shortcut icon" href="Favicon.jpeg" type="image/x-icon">
+
+    <!--Material Design pack-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+    <!--fontAwesome-->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.12/js/all.js"></script>
+</head>
+
+<body>
+    <div class="splash">
+        <img class="fade-in" src="Assets/splashscreen.gif" alt="">
+    </div>
+
+    <div id="container">
+        <h1>Task Manager</h1>
+        <div id="app">
+            <div id="notes">
+                <div class="mdl-textfield mdl-js-textfield" id="text-field-input">
+                    <input class="mdl-textfield__input" type="text" id="sample1" maxlength="30">
+                    <label class="mdl-textfield__label" id="label-for-input-text-field" for="sample1">New Task</label>
+                </div>
+                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" id="btn-add">
+                    <i class="fa fa-plus" style="color: #FFF;" aria-hidden="true"></i>
+                </button>
+            </div>
+
+            <div id="tasksitems">
+                <ul id="taskitem">
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <script src="Scripts/index.js"></script>
+</body>
+
+</html>
