@@ -1,0 +1,283 @@
+@media (min-width:300px) and (max-width: 575.98px) {
+    .splash{
+        background-color: #34495e; 
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        line-height: 100vh;
+        z-index: 200;
+    }
+    
+    .splash.display-none{
+        background-color: #34495e; 
+        position: fixed;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        line-height: 100vh;
+        z-index: -10;
+        transition: all 0.5s;
+    }
+    @keyframes fadeIn{
+        to{
+            opacity: 1;
+        }
+    }
+    
+    .fade-in{
+        opacity: 0;
+        animation: fadeIn 1s ease-in forwards;
+    }
+    
+    #container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 120px;
+        margin: 0px auto;
+        padding: 0px auto;
+        height: 100vh;
+        background-color: #34495e; 
+        scroll-behavior: smooth;  
+    }
+    
+    #container h1{
+        color: #FFF;
+        font: 27px arial,sans-serif;
+        margin-top: -55px;
+    }
+    
+    #app{
+        background-color: #ecda4b;
+        max-width: 340px;
+        width: auto;
+        min-height: 400px;
+        min-width: 340px;
+        height: auto;
+        text-align: center;
+        border-radius: 12px;
+        box-shadow: 0px 0px 40px -2px black
+    }
+    
+    #notes{
+        border-radius: 8px;
+        margin-top: 20px;
+        margin-left: 20px;
+        width: 70%;
+        height: 10%;
+        background-color:#ecf0f1 ;
+    }
+    
+    #text-field-input{
+        margin-top: -15px;
+        margin: -20px;
+    }
+    
+    #input-text-field{
+        border-radius: 8px;
+        height: 25px;
+        width: 245px;
+        border: none;
+        padding: 4px 12px;
+    }
+    
+    #input-text-field:focus{
+        outline: none;
+    }
+    
+    #btn-add-container{
+        margin-top: 10px;
+    }
+    
+    #btn-add{
+        background-color: #34495e;
+        margin-top: -48px;
+        margin-left: 274px;
+        /* margin-right: 15px; */
+        width: 50px;
+        height: 50px;
+        font-size: 17px;
+    }
+    #btn-add:hover{
+        box-shadow: 0px 0px 4px 1px black;
+    
+    }
+    
+    #tasksitems{
+        margin-left: -136px;
+        margin-top: -13px;
+    }
+    
+    
+    #tasksitems li {
+        text-align: start;
+        padding-left: 12px;
+        padding-top: 8px;
+        margin-top: 21px;
+        margin-left: 112px;
+        margin-right: 148px;
+        height: 35px;
+        width: 311px;
+        border-radius: 8px;
+        background-color: #FFF;
+        list-style-type: none;
+    }
+    
+    #remove-button{
+        color: red;
+        margin-top: -27px;
+        margin-left: 78%;
+        cursor: pointer;
+    }
+    
+    
+}
+
+
+@media (min-width:1000px){
+    .splash{
+        background-color: #34495e; 
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        line-height: 100vh;
+        z-index: 200;
+    }
+    
+    .splash.display-none{
+        background-color: #34495e; 
+        position: fixed;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        line-height: 100vh;
+        z-index: -10;
+        transition: all 0.5s;
+    }
+    @keyframes fadeIn{
+        to{
+            opacity: 1;
+        }
+    }
+    
+    .fade-in{
+        opacity: 0;
+        animation: fadeIn 1s ease-in forwards;
+    }
+    
+    #container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 120px;
+        margin: 0px auto;
+        padding: 0px auto;
+        height: 100vh;
+        background-color: #34495e; 
+        scroll-behavior: smooth;  
+    }
+    
+    #container h1{
+        color: #FFF;
+        font: 27px arial,sans-serif;
+        margin-top: -55px;
+    }
+    
+    #app{
+        background-color:#ecda4b;
+        max-width: 400px;
+        width: auto;
+        min-height: 400px;
+        min-width: 395px;
+        height: auto;
+        text-align: center;
+        border-radius:12px;
+        box-shadow: 0px 0px 40px -2px black;
+    }
+    
+    #notes{
+        border-radius: 8px;
+        margin-top: 20px;
+        margin-left: 20px;
+        width: 70%;
+        height: 10%;
+        background-color:#ecf0f1 ;
+    }
+    
+    #text-field-input{
+        margin-top: -15px;
+        margin: -20px;
+    }
+    
+    #input-text-field{
+        border-radius: 8px;
+        height: 35px;
+        width: 279px;
+        border: none;
+    }
+    
+    #input-text-field:focus{
+        outline: none;
+    }
+    
+    #btn-add-container{
+        margin-top: 10px;
+    }
+    
+    #btn-add{
+        background-color: #34495e;
+        margin-top: -48px;
+        margin-left: 295px;
+        margin-right: 15px;
+        width: 50px;
+        height: 50px;
+        font-size: 17px;
+    }
+    #btn-add:hover{
+        box-shadow: 0px 0px 4px 1px black;
+    
+    }
+    
+    #tasksitems{
+        margin-left: -136px;
+        margin-top: -13px;
+    }
+    
+    
+    #tasksitems li {
+        text-align: start;
+        padding-left: 12px;
+        padding-top: 8px;
+        margin-top: 21px;
+        margin-left: 119px;
+        margin-right: 148px;
+        height: 35px;
+        width: 345px;
+        border-radius: 8px;
+        background-color: #FFF;
+        list-style-type: none;
+    }
+    
+    #remove-button{
+        color: red;
+        margin-top: -27px;
+        margin-left: 78%;
+        cursor: pointer;
+    }
+    
+    
+}

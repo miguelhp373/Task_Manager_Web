@@ -2,7 +2,7 @@ const splash = document.querySelector('.splash')
 document.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => {
         splash.classList.add('display-none')
-    }, 2500)
+    }, 1800)
 })
 
 
@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-const TaskInputItem = document.querySelector('#sample1');
+const TaskInputItem = document.querySelector('#input-text-field');
 const BtnAddItem = document.querySelector('#btn-add');
 let TaskList = document.querySelector("#taskitem")
 ShowTasks()
@@ -55,13 +55,10 @@ function ShowTasks() {
 
     let liElement = '';
     listArray.forEach((element, index) => {
-        liElement += `<li>
-        <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-1" style="width: 230px;">
-        <input type="checkbox" id="checkbox-1" class="mdl-checkbox__input">
-        <span class="mdl-checkbox__label">
-        ${element}</label></span><div id="remove-button"><button onclick='remove(${index})' class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" id="removeItemList">
-        <i class="fa fa-trash" aria-hidden="true"></i>
-    </button></div>
+        liElement += `
+        <li>
+        ${element}
+        <div id="remove-button"><a onclick='remove(${index})'>Remover</a></div>
         </li>`
     });
 

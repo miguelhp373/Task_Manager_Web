@@ -10,10 +10,17 @@
 
 # :paperclip: Histórico de Versões
 
-* 1.0
+* 0.2.1
+    * Interface Beta
     * Armazenamento no LocalStorage;
     * Criação e Remoção Dinamica de Notas Via JavaScript
     * Splash Screen
+
+***
+
+* 1.0.1 
+    * Nova Interface Responsiva
+    * Novo Design e Nova SplashScreen
 
 ***
 # 📝 License
