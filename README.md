@@ -4,10 +4,11 @@
 > Seu Aplicativo Web de ToDo List Para Organizar Sua Tarefas.
 
 
-
-![interface](Assets/Mockup/interface.png)
-***
 ![SplashScreen](Assets/Mockup/SplashScreenMockup.png)
+***
+![interface](Assets/Mockup/interface.png)
+
+
 
 
 # :paperclip: Histórico de Versões
