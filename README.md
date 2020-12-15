@@ -5,9 +5,9 @@
 
 
 
-![interface](Assets/interface.png)
+![interface](Assets/Mockup/interface.png)
 ***
-![SplashScreen](Assets/SplashScreenMockup.png)
+![SplashScreen](Assets/Mockup/SplashScreenMockup.png)
 
 
 # :paperclip: Histórico de Versões
